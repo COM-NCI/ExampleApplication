@@ -4,11 +4,11 @@ workflows:
   version: 2  
   build: 
     jobs:
-      — build:  
-        filters: 
-          branches: 
-          only: 
-            - main 
+      - build:  
+          filters: 
+            branches: 
+              only: 
+              - main 
           
 jobs: 
   build: 
